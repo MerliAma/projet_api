@@ -98,7 +98,7 @@ function ListUsers() {
 
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
                     <div className="rounded-2xl bg-slate-50 px-3 py-2 text-sm text-slate-600 ">
-                    <p className="">
+                    
                       <span className="font-medium text-slate-900 mb-3">Adresse :</span> 
                       <ul>
                         <li>- {user.address.street ?? "-"}</li>
@@ -107,17 +107,17 @@ function ListUsers() {
                         <li>- {user.address.zipcode ?? "-"}</li>
                         <li> Géo : {user.address.geo.lat ?? "-"} / {user.address.geo.lng ?? "-"}</li>
                       </ul>
-                    </p>
+                    
                   </div>
                   <div className="rounded-2xl bg-slate-50 px-3 py-2 text-sm text-slate-600 col-span-2">
-                    <p className="">
+                    
                       <span className="font-medium text-slate-900 pb-5">Entreprise :</span> 
                       <ul>
                         <li><span className="text-md text-slate-700">Nom :</span> {user.company.name ?? "-"}</li>
                         <li><span className="text-md text-slate-700">Domaine :</span> {user.company.catchPhrase ?? "-"}</li>
                         <li><span className="text-md text-slate-700">bs :</span> {user.company.bs ?? "-"}</li>
                       </ul>
-                    </p>
+                    
                   </div>
                   </div>
 
