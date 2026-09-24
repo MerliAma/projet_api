@@ -34,7 +34,7 @@ function ListUsers() {
   }
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-rose-50 via-stone-50 to-sky-50 px-4 py-10 text-slate-700 sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-linear-to-br from-rose-50 via-stone-50 to-sky-50 px-4 py-10 text-slate-700 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 text-center">
           <p className="mb-2 text-sm font-medium uppercase tracking-[0.25em] text-rose-400">
